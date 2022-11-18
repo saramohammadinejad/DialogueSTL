@@ -8,8 +8,6 @@ This repository describes the steps for repeating the experiments of DialogueSTL
 If you face any issues please contact ```saramoha@usc.edu```
 
 --------------------------------------------------------------------------
-<br />
-<br />
 Step 1) Python setup
 <br />
 &emsp;Step 1.1) Install ```Python 3.8.6```
