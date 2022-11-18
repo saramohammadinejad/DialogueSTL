@@ -6,6 +6,7 @@ Demo of DialogueSTL: https://youtu.be/C2EoxxxKkrA
 This repository describes the steps for repeating the experiments of DialogueSTL tool:
 
 If you face any issues please contact ```saramoha@usc.edu```
+--------------------------------------------------------------------------
 <br />
 <br />
 Step 1) Python setup
@@ -38,7 +39,7 @@ Step 2) Matlab Setup
 step 3) Clone the repository and unzip it
 <br />
 <br />
-step 4) Go to directory ```ICCPS2023_RE_package/rasa_atom_classifier```
+step 4) Go to directory ```DialogueSTL_RE_package/rasa_atom_classifier```
 <br />
 <br />
 step 5) train the atom classifier using the following command:
@@ -47,7 +48,7 @@ step 5) train the atom classifier using the following command:
 rasa train nlu
 ```
 
-It takes less than 1 minute for the model to be trained. The trained model will be saved in ```ICCPS2023_RE_package/rasa_atom_classifier/models``` folder. You have to copy its name and replace it in line 33 of the file ```ICCPS2023_RE_package/main_interaction_experiments.py```
+It takes less than 1 minute for the model to be trained. The trained model will be saved in ```DialogueSTL_RE_package/rasa_atom_classifier/models``` folder. You have to copy its name and replace it in line 33 of the file ```DialogueSTL_RE_package/main_interaction_experiments.py```
 
 Next, you can test the atom classifier by running 
 
@@ -55,7 +56,7 @@ Next, you can test the atom classifier by running
 rasa test nlu
 ```
 
-The test results will be saved in folder ```ICCPS2023_RE_package/rasa_atom_classifier/results```
+The test results will be saved in folder ```DialogueSTL_RE_package/rasa_atom_classifier/results```
 <br />
 <br />
 step 6) run:
@@ -64,7 +65,7 @@ step 6) run:
 ```ruby
 python main_interaction_experiments.py
 ```
-
+--------------------------------------------------------------------------
 Comparison with DeepSTL:
 
 The link to DeepSTL paper is: https://arxiv.org/pdf/2109.10294.pdf
