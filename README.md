@@ -6,6 +6,7 @@ Demo of DialogueSTL: https://youtu.be/C2EoxxxKkrA
 This repository describes the steps for repeating the experiments of DialogueSTL tool:
 
 If you face any issues please contact ```saramoha@usc.edu```
+
 --------------------------------------------------------------------------
 <br />
 <br />
